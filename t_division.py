@@ -16,6 +16,7 @@ sentence = 'koronawirus to wirus'
 words = sentence.split()
 
 syllables = []
+vowel_i = []
 
 for word in words:
     
@@ -24,8 +25,10 @@ for word in words:
     
     else:
         for i in range(len(word)-1):
-            if word[i] in consonants and word[i+1] in vowels:
-                syllables.append(word[i:i+2])
+            if word[i] in vowels:
+                vowel_i.append(i)
+        for i in range(len(vowel_i)-1):
+            if vowel_i[i]
 
 print(syllables)
 
