@@ -30,6 +30,7 @@ def dipht_simpl(string):
     string.replace('dż','D')
     string.replace('dź','Δ')
     string.replace('sz','S')
+    string.replace('cz','3')
    
     
     return    
