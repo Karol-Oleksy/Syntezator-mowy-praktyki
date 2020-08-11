@@ -1,0 +1,609 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Ą_data" version="1.3.0" audacityversion="2.1.2" sel0="3.8661224490" sel1="3.8661224490" vpos="5088" h="0.0000000000" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="Ścieżka dźwiękowa" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1062400">
+				<waveblock start="0">
+					<simpleblockfile filename="e000095c.au" len="262144" min="-0.075165" max="0.073303" rms="0.006587"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e000059a.au" len="262144" min="-0.053589" max="0.057709" rms="0.006301"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0000d2a.au" len="262144" min="-0.956146" max="0.292603" rms="0.023684"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e00002c9.au" len="262144" min="-0.04364" max="0.050964" rms="0.006463"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e000095a.au" len="13824" min="-0.002655" max="0.002441" rms="0.000444"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Ścieżka dźwiękowa" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1062400">
+				<waveblock start="0">
+					<simpleblockfile filename="e00007ad.au" len="262144" min="-0.075165" max="0.073303" rms="0.006587"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000e55.au" len="262144" min="-0.053589" max="0.057678" rms="0.006301"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0000bf2.au" len="262144" min="-0.956146" max="0.292633" rms="0.023684"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000dbe.au" len="262144" min="-0.04364" max="0.050934" rms="0.006463"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0000e51.au" len="13824" min="-0.002655" max="0.002472" rms="0.000444"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="bą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.61532880">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14336">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004a9.au" len="14336" min="-0.075165" max="0.073303" rms="0.006323"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="bą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.61532880">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14336">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000bae.au" len="14336" min="-0.075165" max="0.073303" rms="0.006323"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="cą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="1.41641723">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="13312">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000340.au" len="13312" min="-0.032043" max="0.035095" rms="0.003916"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="cą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="1.41641723">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="13312">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e52.au" len="13312" min="-0.032013" max="0.035126" rms="0.003916"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ćą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="2.20589569">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="12288">
+				<waveblock start="0">
+					<simpleblockfile filename="e00008ba.au" len="12288" min="-0.031555" max="0.038635" rms="0.003701"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ćą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="2.20589569">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="12288">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000bc5.au" len="12288" min="-0.031555" max="0.038666" rms="0.003701"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="dą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="3.06503401">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="13824">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000482.au" len="13824" min="-0.037903" max="0.039368" rms="0.004474"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="dą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="3.06503401">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="13824">
+				<waveblock start="0">
+					<simpleblockfile filename="e00002b9.au" len="13824" min="-0.037903" max="0.039429" rms="0.004474"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="fą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="3.95900227">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14848">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000ca3.au" len="14848" min="-0.024506" max="0.026917" rms="0.003312"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="fą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="3.95900227">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14848">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000fba.au" len="14848" min="-0.024506" max="0.026886" rms="0.003312"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="gą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="4.71365079">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16896">
+				<waveblock start="0">
+					<simpleblockfile filename="e000007c.au" len="16896" min="-0.026581" max="0.032532" rms="0.003854"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="gą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="4.71365079">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16896">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000292.au" len="16896" min="-0.026611" max="0.032562" rms="0.003854"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="hą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="5.58439909">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="17920">
+				<waveblock start="0">
+					<simpleblockfile filename="e00002d8.au" len="17920" min="-0.033051" max="0.032257" rms="0.003563"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="hą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="5.58439909">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="17920">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e0e.au" len="17920" min="-0.033051" max="0.032257" rms="0.003563"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ją" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="6.37387755">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16896">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e61.au" len="16896" min="-0.023346" max="0.0289" rms="0.003969"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ją" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="6.37387755">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16896">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004dc.au" len="16896" min="-0.023346" max="0.0289" rms="0.003969"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="lą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="8.03410431">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14848">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000151.au" len="14848" min="-0.038086" max="0.036316" rms="0.005015"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="lą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="8.03410431">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14848">
+				<waveblock start="0">
+					<simpleblockfile filename="e000016c.au" len="14848" min="-0.038086" max="0.036285" rms="0.005015"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="łą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="8.82358277">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="17920">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000929.au" len="17920" min="-0.048676" max="0.043091" rms="0.005336"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="łą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="8.82358277">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="17920">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000861.au" len="17920" min="-0.048676" max="0.04306" rms="0.005336"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="mą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="9.68272109">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="13824">
+				<waveblock start="0">
+					<simpleblockfile filename="e000038f.au" len="13824" min="-0.038269" max="0.036835" rms="0.004796"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="mą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="9.68272109">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="13824">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b18.au" len="13824" min="-0.038239" max="0.036835" rms="0.004796"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ną" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="10.54185941">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="13824">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000699.au" len="13824" min="-0.040771" max="0.035522" rms="0.004625"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ną" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="10.54185941">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="13824">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000356.au" len="13824" min="-0.040771" max="0.035492" rms="0.004625"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ńą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="11.38938776">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14336">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000168.au" len="14336" min="-0.040924" max="0.051331" rms="0.005066"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ńą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="11.38938776">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14336">
+				<waveblock start="0">
+					<simpleblockfile filename="e00002df.au" len="14336" min="-0.040924" max="0.051331" rms="0.005066"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="rą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="13.03800454">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14336">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000ad1.au" len="14336" min="-0.024689" max="0.035004" rms="0.0046"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="rą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="13.03800454">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14336">
+				<waveblock start="0">
+					<simpleblockfile filename="e00007d7.au" len="14336" min="-0.024689" max="0.035004" rms="0.0046"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="są" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="13.83909297">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="19456">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c85.au" len="19456" min="-0.046478" max="0.038574" rms="0.005011"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="są" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="13.83909297">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="19456">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000451.au" len="19456" min="-0.046478" max="0.038574" rms="0.005011"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="śą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="14.67501134">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16384">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000822.au" len="16384" min="-0.04541" max="0.043091" rms="0.005016"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="śą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="14.67501134">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16384">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000cd4.au" len="16384" min="-0.04541" max="0.043121" rms="0.005016"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="tą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="15.58058957">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14336">
+				<waveblock start="0">
+					<simpleblockfile filename="e00000fe.au" len="14336" min="-0.042145" max="0.042114" rms="0.0044"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="tą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="15.58058957">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14336">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000db9.au" len="14336" min="-0.042145" max="0.042084" rms="0.0044"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="wą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="16.38167800">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16896">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000400.au" len="16896" min="-0.029266" max="0.034363" rms="0.004046"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="wą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="16.38167800">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16896">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b6a.au" len="16896" min="-0.029266" max="0.034363" rms="0.004046"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="zą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="17.18276644">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="19968">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f7c.au" len="19968" min="-0.043823" max="0.036987" rms="0.004818"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="zą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="17.18276644">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="19968">
+				<waveblock start="0">
+					<simpleblockfile filename="e000012a.au" len="19968" min="-0.043793" max="0.036987" rms="0.004818"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="źą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="17.99546485">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="20992">
+				<waveblock start="0">
+					<simpleblockfile filename="e00003f5.au" len="20992" min="-0.034241" max="0.04834" rms="0.005065"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="źą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="17.99546485">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="20992">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000794.au" len="20992" min="-0.03421" max="0.04834" rms="0.005065"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="żą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="18.85460317">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="20992">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000625.au" len="20992" min="-0.038147" max="0.046051" rms="0.005471"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="żą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="18.85460317">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="20992">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000de3.au" len="20992" min="-0.038147" max="0.046051" rms="0.005471"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="3ą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="19.76018141">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16384">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000535.au" len="16384" min="-0.041321" max="0.039368" rms="0.004938"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="3ą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="19.76018141">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16384">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000101.au" len="16384" min="-0.041321" max="0.039368" rms="0.004938"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="&#x2202;ą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="20.53804989">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="23040">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000826.au" len="23040" min="-0.033813" max="0.048492" rms="0.004471"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="&#x2202;ą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="20.53804989">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="23040">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000bb1.au" len="23040" min="-0.033783" max="0.048462" rms="0.004471"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="đą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="21.37396825">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="19968">
+				<waveblock start="0">
+					<simpleblockfile filename="e000045f.au" len="19968" min="-0.034668" max="0.03717" rms="0.004513"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="đą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="21.37396825">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="19968">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000dae.au" len="19968" min="-0.034637" max="0.037201" rms="0.004513"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="δą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="22.18666667">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="18432">
+				<waveblock start="0">
+					<simpleblockfile filename="e00007e1.au" len="18432" min="-0.04364" max="0.050964" rms="0.004708"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="δą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="22.18666667">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="18432">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e5f.au" len="18432" min="-0.04364" max="0.050934" rms="0.004708"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="σą" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="22.98775510">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="19456">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d3b.au" len="19456" min="-0.036194" max="0.042816" rms="0.004581"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="σą" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="22.98775510">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="19456">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000cc9.au" len="19456" min="-0.036194" max="0.042816" rms="0.004581"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ką" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.71981859">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="17408">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000fc6.au" len="17408" min="-0.03067" max="0.03067" rms="0.004224"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ką" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.71981859">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="17408">
+				<waveblock start="0">
+					<simpleblockfile filename="e000087c.au" len="17408" min="-0.03067" max="0.03067" rms="0.004224"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="pą" channel="0" linked="1" mute="0" solo="1" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.99845805">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14848">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f6f.au" len="14848" min="-0.070129" max="0.106842" rms="0.007978"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="pą" channel="1" linked="0" mute="0" solo="1" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.99845805">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="14848">
+				<waveblock start="0">
+					<simpleblockfile filename="e00002dc.au" len="14848" min="-0.070129" max="0.106842" rms="0.007978"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
