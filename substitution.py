@@ -19,7 +19,7 @@ def dipht_simpl(string):
     string.replace('cz','3')
    
     
-    return    
+    return string   
 
 
 def subst_diff(string):
@@ -27,14 +27,19 @@ def subst_diff(string):
     Zastępuje w słowie głoski, które są wymawiane inaczej
     ze względu na różnego rodzaju procesy fonetyczne
     '''
-    voiced = ['b','d','ζ','∂','δ','g','w','z','ź','ż']
-    unvoiced = ['p','t','c','ć','3','k','f','s','ś','σ','h']
     
     #homofonia
     string.replace('ó','u')
     string.replace('au','ał')
+    string.replace('ia','ja')
+    string.replace('ie','je')
+    string.replace('io','jo')
+    string.replace('iu','ju')
     
     #ubezdźwięcznienie na końcu wyrazu
+    voiced = ['b','d','ζ','∂','δ','g','w','z','ź','ż']
+    unvoiced = ['p','t','c','ć','3','k','f','s','ś','σ','h']
+    
     if string[len(string)-1] in voiced:
         string = string[:len(string)-1] + unvoiced[voiced.index(string[len(string)-1])]
     

@@ -3,7 +3,7 @@
 Próbny skrypt do dzielenia wyrazu na sylaby
 """
 
-import shortcuts
+import spell
 import substitution
 
 vowels = ['a','ą','e','ę','i','o','u','y']
@@ -29,20 +29,27 @@ for word in words:
     #usunięcie znaków przestankowych i innych
     word = word.strip('-!?()[]{}:;+=/\\&\'\".,')
 
-    #wymowa skrótowca
+    #skrótowce
     if word.isupper():
-        syls = shortcuts.spell(word)
+        syllables.extend(spell.shortcut(word))
+        
+    #liczby
+    
+    
+    #normalne wyrazy    
     else:
         word = word.lower()
         
-    for i in range(len(word)-1):
-        if word[i] in vowels:
-            vowel_i.append(i)
-    for i in range(len(vowel_i)-1):
-        if vowel_i[i]:
+        word = substitution.dipht_simpl(word)
+        word = substitution.subst_diff(word)
+        
+        for i in range(len(word)-1):
+            if word[i] in vowels:
+                vowel_i.append(i)
+        for i in range(len(vowel_i)-1):
+            if vowel_i[i]:
             
             
-    syllables.append(syls) #inaczej, bo syls to lista
 
 print(syllables)
 
