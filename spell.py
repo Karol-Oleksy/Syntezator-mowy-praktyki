@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Obsługa sniezwyczajnych wyrazów (skrótowce, liczby)
+Obsługa niezwyczajnych wyrazów (skrótowce, liczby)
 """
 
 def shortcut(word):
@@ -51,8 +50,9 @@ def shortcut(word):
 
 def number(word):
     '''
-    Funkcja zwraca sylaby składające się na liczbę zapisaną w tekscie cyframi
-    Obsługuje cyfry od 0 do 9.999.999
+    Funkcja zwraca sylaby składające się na liczbę zapisaną w tekscie cyframi podaną jako argument
+    Obsługuje cyfry od 0 do 9.999.999 (możliwosc rozszerzenia zakresu przez dodanie warunków)
+    Nie obsługuje liczb z separatorami (kropkami, spacjami itp. pomiędzy segmentami)
     '''
     syllables = []
     
@@ -62,32 +62,36 @@ def number(word):
     for dig_i in range(len(word)):
         digit = word[dig_i]
         
-#        if digit=='0':  #nie ogarnia, kiedy liczby to "50000" np.
-#            continue
         #RZĄD
         
         if dig_i in [1,4]:
             if   digit=='2': syllables.extend(('ća','∂eś'))
             elif digit in ['3','4']: syllables.extend(('ći','∂eś'))
+            elif digit=='0': continue
             elif digit!='1': syllables.extend(('śąt','∂e'))
             
         if dig_i in [2,5]:
             if   digit=='1': syllables.append('sto')
             elif digit=='2': syllables.append('śće')
             elif digit in ['3','4']: syllables.append('sta')
+            elif digit=='0': continue
             else: syllables.append('set')
             
         if dig_i==3:
-            if   digit=='1' and word[4]!='1': syllables.extend(('śąc','ty'))
-            elif digit in ['2','3','4'] and word[4]!='1': syllables.extend(('ce','śą','ty'))
-            else: syllables.extend(('cy','śę','ty'))
+            try:
+                if   digit=='1' and len(word)<5: syllables.extend(('śąc','ty'))
+                elif digit in ['2','3','4'] and word[4]!='1': syllables.extend(('ce','śą','ty'))
+                else: syllables.extend(('cy','śę','ty'))
+            except IndexError:
+                if   digit=='1': syllables.extend(('śąc','ty'))
+                elif digit in ['2','3','4']: syllables.extend(('ce','śą','ty'))
+                else: syllables.extend(('cy','śę','ty'))
             
         if dig_i==6:
             if   digit=='1': syllables.extend(('jon','mil'))
             elif digit in ['2','3','4']: syllables.extend(('ny','jo','mil'))
             else: syllables.extend(('nów','jo','mil'))
             
-        
         #CYFRA
         
         #liczby zakończone na 'nascie'
@@ -107,7 +111,7 @@ def number(word):
         #liczby niezakończone na 'nascie' 
         else:
             if   digit=='0' and len(word)==1: syllables.extend(('ro','ze'))
-            elif digit=='1' and dig_i==0: syllables.extend(('den','je'))
+            elif digit=='1' and (dig_i==0 or (dig_i==3 and len(word)>4)): syllables.extend(('den','je'))
             elif digit=='2' and dig_i!=2: syllables.append('dwa')
             elif digit=='2' and dig_i==2: syllables.append('dwje')
             elif digit=='3': syllables.append('tσy')
@@ -123,5 +127,5 @@ def number(word):
     
     return syllables
     
-num = '110'
-print(number(num))
+#num = '200'
+#print(number(num))
