@@ -8,11 +8,10 @@ def dipht_simpl(string):
     '''
     Zastępuje dyftongi pojedynczymi znakami
     '''
-    
     string=string.replace('ch','h')
-    string=string.replace('rz','ż')  #wziąć pod uwagę, że są słowa jak 'marznąć'
-    string=string.replace('dz','ζ')
-    string=string.replace('dż','δ')
+    if not "marzn" in string: string=string.replace('rz','ř')  #dla eliminacji 'marznąć' i słów pochodnych
+    string=string.replace('dz','ζ')                             #dodatkowo rozróżnienie ż-ř ze wzgledu na upodobnienia głoskowe
+    string=string.replace('dż','δ')                             #(ř podlega ubezdźwięcznieniu postępowemu, ż nie)
     string=string.replace('dź','∂')
     string=string.replace('sz','σ')
     string=string.replace('cz','3')
@@ -56,19 +55,35 @@ def subst_diff(string):
     string=string.replace('au','ał')
     if not string.startswith(('ńeu','pżeu')): string=string.replace('eu','eł') #np. wyrazy takie jak: nieuk, przeuprzejmy
     
+    #upodobnienie
     
-    #ubezdźwięcznienie
-        #na końcu wyrazu
-        
-    voiced = ['b','d','ζ','∂','δ','g','w','z','ź','ż']
-    unvoiced = ['p','t','c','ć','3','k','f','s','ś','σ','h']
+    voiced = ['b','d','ζ','∂','δ','g','w','z','ź','ż','ř']
+    unvoiced = ['p','t','c','ć','3','k','f','s','ś','σ','σ']
+    
+        #ubezdźwięcznienie na końcu wyrazu
     
     if string[len(string)-1] in voiced:
         string = string[:len(string)-1] + unvoiced[voiced.index(string[len(string)-1])]
-    
-    #ubezdźwięcznienie przez upodobnienie
-    
- 
+            #nie uwzględnia przypadków, gdy głoska nie ulega ubezdźwięcznieniu z powodu dźwięcznego rozpoczęcia kolejnego wyrazu
+        
+        #ubezdźwięcznienie wsteczne, postępowe i udźwięcznienie wsteczne
+        
+    for i in range(len(string)-1):
+        if string[i] in voiced and string[i+1] in unvoiced:
+            x = voiced.index(string[i])
+            string = string[:i]+unvoiced[x]+string[i+1:]
+        elif string[i] in unvoiced and string[i+1] in voiced:
+            if string[i+1] in ['w','ř']:
+                x = voiced.index(string[i+1])
+                end = string[i+2:] if i+2<len(string) else '' #unika błędu IndexError
+                string = string[:i+1]+unvoiced[x]+end
+            else:
+                x = unvoiced.index(string[i])
+                string = string[:i]+voiced[x]+string[i+1:]  
+                
+    #homofonia ř-ż
+        
+    string = string.replace('ř','ż')
     
     return string
 
@@ -82,5 +97,11 @@ def subst_diff(string):
 #   b[x] = b[x].strip('-!?()[]{}:;+=/\\&\'\".,')
 #
 #print(b)
-#a = 'w australii'
-#print(subst_diff(a))
+
+#a = "gwóźdź"
+#b = "gwoździem"
+#c = "wcierać"
+#d = "bohdan"
+#e = "kwiat"
+#f = "potrzeba"
+#print(subst_diff(dipht_simpl(a)),subst_diff(dipht_simpl(b)),subst_diff(dipht_simpl(c)),subst_diff(dipht_simpl(d)),subst_diff(dipht_simpl(e)),subst_diff(dipht_simpl(f)))
