@@ -6,12 +6,12 @@ Zamiana głosek (dyftongi, głoski inaczej wymawiane)
 
 def dipht_simpl(string):
     '''
-    Zastępuje dyftongi pojedynczymi znakami
+    Zastępuje dyftongi pojedynczymi znakami. Zwraca zmodyfikowany string.
     '''
     string=string.replace('ch','h')
-    if not "marzn" in string: string=string.replace('rz','ř')  #dla eliminacji 'marznąć' i słów pochodnych
+    if not "marzn" in string: string=string.replace('rz','ř')   #if dla eliminacji 'marznąć' i słów pochodnych
     string=string.replace('dz','ζ')                             #dodatkowo rozróżnienie ż-ř ze wzgledu na upodobnienia głoskowe
-    string=string.replace('dż','δ')                             #(ř podlega ubezdźwięcznieniu postępowemu, ż nie)
+    string=string.replace('dż','δ')                             #(rz podlega ubezdźwięcznieniu postępowemu, ż nie podlega)
     string=string.replace('dź','∂')
     string=string.replace('sz','σ')
     string=string.replace('cz','3')
@@ -23,23 +23,29 @@ def dipht_simpl(string):
 def subst_diff(string):
     '''
     Zastępuje w słowie głoski, które są wymawiane inaczej
-    ze względu na różnego rodzaju procesy fonetyczne
+    ze względu na różnego rodzaju procesy fonetyczne.
+    Zwraca zmodyfikowany string.
     '''
     #homofonia
+    
+    vowels = ['a','ą','e','ę','i','o','u','y'] #samogłoski
+    unpals = ['c','n','s','z','ζ'] #spółgłoski podlegające zmiękczeniu, w wersji twardej
+    pals   = ['ć','ń','ś','ź','∂'] #spółgłoski zmiękczone
+    
         #'i' niezgłoskotwórcze zmiękczające
         
-    vowels = ['a','ą','e','ę','i','o','u','y']
-    unpals = ['c','n','s','z','ζ']
-    pals   = ['ć','ń','ś','ź','∂']
-    
     for j in range(len(unpals)):
         x = 0
         while x < len(string):
             i = string.find(unpals[j]+'i',x)
             if i==-1: break
-            elif string[i+2] in vowels:
-                string = string[:i]+pals[j]+string[i+2:]
-                x = i+2
+            elif len(string)>i+2:
+                if string[i+2] in vowels:
+                    string = string[:i]+pals[j]+string[i+2:]
+                    x = i+2
+                else:
+                    string = string[:i]+pals[j]+string[i+1:]
+                    x = i+1
             else:
                 string = string[:i]+pals[j]+string[i+1:]
                 x = i+1
@@ -57,14 +63,14 @@ def subst_diff(string):
     
     #upodobnienie
     
-    voiced = ['b','d','ζ','∂','δ','g','w','z','ź','ż','ř']
-    unvoiced = ['p','t','c','ć','3','k','f','s','ś','σ','σ']
+    voiced   = ['b','d','ζ','∂','δ','g','w','z','ź','ż','ř'] #spółgłoski dźwięczne      
+    unvoiced = ['p','t','c','ć','3','k','f','s','ś','σ','σ'] #spółgłoski bezdźwięczne (odpowiedniki dźwięcznych)
     
         #ubezdźwięcznienie na końcu wyrazu
     
-    if string[len(string)-1] in voiced:
+    if string[len(string)-1] in voiced and len(string)>1:
         string = string[:len(string)-1] + unvoiced[voiced.index(string[len(string)-1])]
-            #nie uwzględnia przypadków, gdy głoska nie ulega ubezdźwięcznieniu z powodu dźwięcznego rozpoczęcia kolejnego wyrazu
+            #(nie uwzględnia przypadków, gdy głoska nie ulega ubezdźwięcznieniu z powodu dźwięcznego rozpoczęcia kolejnego wyrazu)
         
         #ubezdźwięcznienie wsteczne, postępowe i udźwięcznienie wsteczne
         
@@ -98,10 +104,10 @@ def subst_diff(string):
 #
 #print(b)
 
-#a = "gwóźdź"
-#b = "gwoździem"
-#c = "wcierać"
-#d = "bohdan"
-#e = "kwiat"
-#f = "potrzeba"
-#print(subst_diff(dipht_simpl(a)),subst_diff(dipht_simpl(b)),subst_diff(dipht_simpl(c)),subst_diff(dipht_simpl(d)),subst_diff(dipht_simpl(e)),subst_diff(dipht_simpl(f)))
+a = "rozstrzelany"
+b = "kwierzenie"
+c = "korzenie"
+d = "bohdan"
+e = "kwiat"
+f = "potrzeba"
+print(subst_diff(dipht_simpl(a)),subst_diff(dipht_simpl(b)),subst_diff(dipht_simpl(c)),subst_diff(dipht_simpl(d)),subst_diff(dipht_simpl(e)),subst_diff(dipht_simpl(f)))

@@ -1,4 +1,3 @@
-
 """
 Próbny skrypt do odtwarzania dźwięków
 """
@@ -6,14 +5,14 @@ Próbny skrypt do odtwarzania dźwięków
 import simpleaudio as sa
 
 
-ko = sa.WaveObject.from_wave_file('Dźwięki/ko.wav')
-ro = sa.WaveObject.from_wave_file('Dźwięki/ro.wav')
-na = sa.WaveObject.from_wave_file('Dźwięki/na.wav')
-wi = sa.WaveObject.from_wave_file('Dźwięki/wi.wav')
-rus = sa.WaveObject.from_wave_file('Dźwięki/rus.wav')
+#ko = sa.WaveObject.from_wave_file('Dźwięki/ko.wav')
+#że = sa.WaveObject.from_wave_file('Dźwięki/że.wav')
+#ńe = sa.WaveObject.from_wave_file('Dźwięki/ńe.wav')
+#wi = sa.WaveObject.from_wave_file('Dźwięki/wi.wav')
+#rus = sa.WaveObject.from_wave_file('Dźwięki/rus.wav')
 
-word = [ko,ro,na,wi,rus]
+word = ['ko','ro','na','wi','ru','so','wy']
 
 for syllable in word:
-    play_obj = syllable.play()
+    play_obj = sa.WaveObject.from_wave_file('Dźwięki/'+syllable+'.wav').play()
     play_obj.wait_done()

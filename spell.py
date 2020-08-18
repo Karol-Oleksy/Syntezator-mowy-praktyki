@@ -4,10 +4,10 @@ Obsługa niezwyczajnych wyrazów (skrótowce, liczby)
 
 def shortcut(word):
     '''
-    Funkcja zwraca sylaby składające się na skrótowiec podany jako argument
+    Funkcja sylabizuje skrótowiec. Zwraca listę sylab zapisanych jako string.
     '''
     
-    syllables = []
+    syllables = [] #lista sylab
     
     for letter in word:
         if   letter=='A': syllables.append('a')
@@ -50,13 +50,14 @@ def shortcut(word):
 
 def number(word):
     '''
-    Funkcja zwraca sylaby składające się na liczbę zapisaną w tekscie cyframi podaną jako argument
-    Obsługuje cyfry od 0 do 9.999.999 (możliwosc rozszerzenia zakresu przez dodanie warunków)
-    Nie obsługuje liczb z separatorami (kropkami, spacjami itp. pomiędzy segmentami)
+    Funkcja sylabizuje liczbę zapisaną w tekscie cyframi podaną jako argument.
+    Obsługuje cyfry od 0 do 9.999.999 (możliwosc rozszerzenia zakresu przez dodanie warunków).
+    Nie obsługuje liczb z separatorami (kropkami, spacjami itp. pomiędzy segmentami).
+    Zwraca listę sylab zaspisanych jako string.
     '''
-    syllables = []
+    syllables = [] #lista sylab
     
-    word = ''.join(reversed(word)) #zaczniemy wymowę od najmniejszej wielokrotnosci
+    word = ''.join(reversed(word)) #pętla rozpoczyna od najmniejszej wielokrotnosci, dlatego następuje odwrócenie liczby
     
     
     for dig_i in range(len(word)):
@@ -123,7 +124,7 @@ def number(word):
             elif digit=='8': syllables.extend(('śem','o'))
             elif digit=='9': syllables.extend(('wjęć','∂e'))
         
-    syllables.reverse()
+    syllables.reverse() #odwrócenie dla poprawnej kolejnosci
     
     return syllables
     
