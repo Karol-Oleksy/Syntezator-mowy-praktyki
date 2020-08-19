@@ -21,7 +21,8 @@ def divide(word):
         
         
     if not vowel_i: #przypadek wyrazów bez samogłoski
-        rest = word
+        if word in ['z','w']: rest = word
+        else: syllables.append(word)
         
     elif len(vowel_i)==1: #przypadek jednosylabowych wyrazów
         syllables.append(word) 
