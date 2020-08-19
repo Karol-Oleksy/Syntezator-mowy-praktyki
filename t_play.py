@@ -3,6 +3,7 @@ Próbny skrypt do odtwarzania dźwięków
 """
 
 import simpleaudio as sa
+from main import main
 
 
 #ko = sa.WaveObject.from_wave_file('Dźwięki/ko.wav')
@@ -11,7 +12,7 @@ import simpleaudio as sa
 #wi = sa.WaveObject.from_wave_file('Dźwięki/wi.wav')
 #rus = sa.WaveObject.from_wave_file('Dźwięki/rus.wav')
 
-word = ['ko','ro','na','wi','ru','so','wy']
+word = main('')
 
 for syllable in word:
     play_obj = sa.WaveObject.from_wave_file('Dźwięki/'+syllable+'.wav').play()
