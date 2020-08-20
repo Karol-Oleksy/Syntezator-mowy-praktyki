@@ -4,7 +4,7 @@ Próbny skrypt główny programu
 
 import spell, substitution, division
 
-sentence = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+sentence = 'Litwo! Ojczyzno moja! ty jesteś jak zdrowie: Ile cię trzeba cenić, ten tylko się dowie, Kto cię stracił. Dziś piękność twą w całej ozdobie Widzę i opisuję, bo tęsknię po tobie. '
 
 def main(sentence):
     words = sentence.split() #dzieli tekst na wyrazy 
@@ -50,7 +50,7 @@ def main(sentence):
         
         i += 1
     
-    #print(syllables)
+    print(syllables)
     return syllables
 
 
