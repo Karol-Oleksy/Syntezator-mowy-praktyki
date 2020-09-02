@@ -59,7 +59,7 @@ def subst_diff(string):
         
     string=string.replace('ó','u')
     string=string.replace('au','ał')
-    if not string.startswith(('ńeu','pżeu')): string=string.replace('eu','eł') #np. wyrazy takie jak: nieuk, przeuprzejmy
+    if not (string.startswith(('ńeu','pżeu')) and 'euσ' in string): string=string.replace('eu','eł') #np. wyrazy takie jak: nieuk, przeuprzejmy, słabeusz
     
         #litery niewystępujące w wyrazach polskich
         
