@@ -21,8 +21,9 @@ def divide(word):
         
         
     if not vowel_i: #przypadek wyrazów bez samogłoski
-        if word in ['z','w']: rest = word
-        else: syllables.append(word)
+        #if word in ['z','w']: rest = word
+        #else:
+        syllables.append(word)   #problem: potrzeba nagrania sylab z dodatkowym 'w' lub 'z' na początku
         
     elif len(vowel_i)==1: #przypadek jednosylabowych wyrazów
         syllables.append(word) 
@@ -44,6 +45,6 @@ def divide(word):
             
     return syllables, rest
 
-#a = 'ńeosobowy'
+#a = 'marσ3y'
 #b,x = divide(a)
 #print(b)
